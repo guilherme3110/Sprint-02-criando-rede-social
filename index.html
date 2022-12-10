@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <script src="./src/scripts/users.js" defer></script>
+    <script src="./src/scripts/posts.js" defer></script>
+    <script src="./src/scripts/sugestUsers.js" defer></script>
+    <script src="./src/scripts/index.js" defer></script>
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="./src/styles/index.css">
+    <link rel="stylesheet" href="./src/styles/style.css">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="titulo__pagina">TechPosters</li>
+                <li class="sair__header">Sair</li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section class="primeira__section">
+            <div class="users__config">
+                <!-- <img src="./src/assets/img/user1.svg" class="usuarios">
+                <h2 class="item__1">Samuel Leão</h2>
+                <h3 class="item__2">Front end Engineer</h3>
+                 -->
+            </div>
+            <form>
+                <button>Postar</button>
+            </form>
+        
+        </section>
+
+        <aside class="aside__container">
+            <h4>Sugestoes para Seguir</h4>
+        </aside>
+
+        <section class="list__container">
+            <h2 class="post__secao">Posts</h2>
+            <ul class="card_itens">
+                <li>
+                    <!-- <img src="./src/assets/img/user2.svg" alt="Samuel" class="usuarios">
+                    <h2 class="card__name">Samuel Leão</h2>
+                    <p>Front end Engineer</p> -->
+                </li>  
+
+            </ul>
+            
+        </section>
+       
+
+        <dialog class="modal__container" open="FavDialog">
+           
+        </dialog>
+    </main>
+    
+</body>
+</html>
